@@ -1,0 +1,266 @@
+*{  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.nav-link{
+    color:black;
+    font-weight: 600;
+
+}
+
+.navbar-brand{
+    color:black;
+    font-size: 35px;
+    font-weight:700;
+
+}
+
+.navbar-brand small{
+    font-size: 30px;
+    font-weight: 700;
+    color: red;
+}
+/* ------------------------------------------------------------*/
+
+.carousel-caption{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-80%);
+    left: -8%;
+}
+
+.carousel-caption h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: black;
+}
+
+.carousel-caption p{
+    color:black;
+    font-weight: 600;
+}
+
+.btn0{
+    background-color: red;
+    height: 45px;
+    width: 150px;
+    color: white;
+    outline: none;
+    border: none;
+
+}
+
+.btn0:hover{
+    background-color: white;
+    color:red;
+    transition: 0.3s;
+
+}
+
+/* ---------------------------------------------------------------*/
+
+.collection h1{
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.collection del{
+    font-size: 12px ;
+    font-weight: 500;
+}
+.collection span{
+    color: red;
+    font-size: 16px;
+    font-weight: 450;
+    padding-left: 5px;
+}
+
+.collection input{
+    position: absolute;
+    height: 45px;
+    width: 110px;
+    background-color: grey;
+    color: white;
+    outline: none;
+    border: none;
+    text-align: center;
+    top:35%;
+    left: 30%;
+    opacity: 0;
+}
+
+.collection .card:hover input{
+    opacity: 1;
+    transition: 1s;
+}
+
+.collection input:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+/* ------------------------------------------------*/
+
+.parallex{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./menswear.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.parallex h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.parallex p{
+    font-size: 38px;
+}
+
+.btn2{
+    height: 40px;
+    width: 110px;
+    background: transparent;
+    border: 2px solid black;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn3{
+    height: 40px;
+    width: 110px;
+    background : transparent;
+    border: 2px solid black;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn3:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+/*--------------------------------------------------------*/
+
+.products h1{
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.products h5{
+    font-size: 15px;
+}
+
+.products del{
+    font-size: 11px ;
+    font-weight: 400;
+}
+.products span{
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+
+.products input{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    background-color: grey;
+    color: white;
+    outline: none;
+    border: none;
+    text-align: center;
+    top:32%;
+    left: 22%;
+    opacity: 0;
+}
+
+.products .card:hover input{
+    opacity: 1;
+    transition: 1s;
+}
+
+.products input:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+/* -----------------------------------------------------*/
+
+
+.article a{
+    list-style: none;
+    color: brown;
+    outline: none;
+}
+
+.article a:hover{
+    color: lightslategray;
+    transition: 0.3s;
+}
+
+.article span{
+    color: grey;
+}
+
+.article small{
+    font-size: 14px;
+}
+
+/*---------------------------------------------------*/
+
+.contact h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.contact input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: grey;
+    background-color: white;
+    padding: 10px;
+    -webkit-box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 21px -8px rgba(0,0,0,0.75);
+}
+
+.btn4{
+    height: 35px;
+    width: 80%;
+    background-color: grey;
+    color: black;
+    outline: none;
+    border: none;
+    
+    display: inline-block;
+}
+
+.btn4:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.contact a{
+    color: inherit;
+    text-decoration: none;
+}
